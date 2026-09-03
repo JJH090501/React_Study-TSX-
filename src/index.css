@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Flame";
+  src: url('/fonts/FlameRegular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Flame";
+  src: url('/fonts/FlameBold.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Flame Condensed";
+  src: url('/fonts/FlameCondensed.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Flame Sans";
+  src: url('/fonts/FlameSans.otf') format('opentype');
+  font-weight: 400;
+}
+
+@theme {
+  --font-flame: 'Flame', sans-serif;
+  --font-condensed: 'Flame Condensed', sans-serif;
+  --font-flame-sans: 'Flame Sans', sans-serif;
+}
