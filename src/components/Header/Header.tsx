@@ -3,8 +3,11 @@ import { QrCode, UserRound } from 'lucide-react'
 function Header() {
     return(
         <header className='bg-[#f7eddd]'>
-            <nav className='mx-auto flex h-24 max-w-[1160px] items-center justify-between px-6 font-flame font-bold'>
-                <a href="/" aria-label="버거킹 홈">
+            <nav className='mx-auto flex h-24 max-w-[1160px] items-center justify-between px-10 font-flame font-bold'>
+                <a
+                href="/" aria-label="버거킹 홈"
+                className='text-[#d62300] text-2xl'
+                >
                     BURGER KING
                 </a>
 
